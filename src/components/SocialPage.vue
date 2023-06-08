@@ -8,7 +8,7 @@ fluid
     <v-img
                 cover
                 class="elevation-2"
-                src= "src/assets/m1.jpg"
+                src= "/src/assets/m1.jpg"
               >
             </v-img>
    </v-col>
@@ -16,7 +16,7 @@ fluid
     <v-img
               cover
                 class="elevation-2"
-                src= "src/assets/m3.jpg"
+                src= "/src/assets/m3.jpg"
               >
             </v-img>
    </v-col>
@@ -26,7 +26,7 @@ fluid
     <v-img
                 cover=""
                 class="elevation-2"
-                src= "src/assets/m2.jpg"
+                src= "/src/assets/m2.jpg"
               >
             </v-img>
    </v-col>
@@ -35,7 +35,7 @@ fluid
              
              cover
                 class="elevation-2"
-                src= "src/assets/m4.jpg"
+                src= "@/assets/m4.jpg"
               >
             </v-img>
    </v-col>

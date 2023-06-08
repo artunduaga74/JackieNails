@@ -7,7 +7,7 @@
             <v-img
                 Height= "80"
                 width="68"
-                src= "src/assets/logo.png"
+                src= "/src/assets/logo.png"
             >
             </v-img>
           </v-col>
@@ -15,7 +15,7 @@
             <v-col class="">
               <div >
                 <v-img
-                   src= "src/assets/jackeline.svg"
+                   src= "/src/assets/jackeline.svg"
                 >
                 </v-img>
               </div>

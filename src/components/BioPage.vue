@@ -8,7 +8,7 @@
           <v-img
              Height= "26"
              width="320"
-             src= "src/assets/SeperadorDown.png"
+             src= "/src/assets/SeperadorDown.png"
           >
           </v-img>
       </v-col>
@@ -18,7 +18,7 @@
     <div class="d-flex elevation-4">
       <v-img
       cover
-      src= "src/assets/jackie.jpg"
+      src= "/src/assets/jackie.jpg"
       >
       </v-img>
     </div>
@@ -39,7 +39,7 @@
           <v-img
              Height= "26"
              width="320"
-             src= "src/assets/SeparadorUp.png"
+             src= "/src/assets/SeparadorUp.png"
           >
           </v-img>
       </v-col>
