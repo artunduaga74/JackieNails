@@ -1,6 +1,6 @@
 <template>
 <v-app>
-    <v-main class="bg-secondary" color="">
+    <v-main class="bg-secondary justify-center" color="">
       <Header/>
       <Hero />
       <Bio/>

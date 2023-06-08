@@ -2,10 +2,10 @@
     <v-container
       class=""
     >
-     <v-row class="">
+     <v-row class="justify-center">
           <v-col cols="auto" class="">
             <v-img
-                Height= "70"
+                Height= "80"
                 width="68"
                 src= "src/assets/logo.png"
             >
@@ -23,16 +23,6 @@
             </v-col>
           </v-row>
      </v-row>
-    <v-row  class="d-flex align-center justify-center">
-      <v-col cols="auto">
-          <v-img
-             Height= "26"
-             width="320"
-             src= "src/assets/SeparadorUp.png"
-          >
-          </v-img>
-      </v-col>
-    </v-row>
     </v-container>
        
 </template>

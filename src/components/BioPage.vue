@@ -3,7 +3,7 @@
   class=""
   fluid
 >
-<v-row  class="align-center justify-center">
+<v-row class="justify-center">
       <v-col cols="auto" class="">
           <v-img
              Height= "26"
@@ -13,17 +13,18 @@
           </v-img>
       </v-col>
     </v-row>
- <v-row  class=" aling-center pr-1" >
-   <v-col cols="" class="pt-2 mr-2" style="">
-    <v-img
-     cover
-     height="200"
-     width="153"
-     src= "src/assets/jackie.jpg"
-    >
-    </v-img>
+ <v-row  class="justify-center align-center pr-1" >
+   <v-col cols="xs-2 sm-4" class="pt-2 mr-2" style="">
+    <div class="d-flex elevation-4">
+      <v-img
+      cover
+      src= "src/assets/jackie.jpg"
+      >
+      </v-img>
+    </div>
+
    </v-col>
-   <v-col cols="" class="ml-2 pa-0">
+   <v-col cols="xs-2 sm-auto" class="ml-2 pa-0">
     <div class="text-h6 text-center ma-4" style="line-height: 18px;">
         Mi nombre es Jackeline M.
     </div>
@@ -33,21 +34,17 @@
     </div> 
    </v-col>
  </v-row>
+ <v-row class="justify-center">
+      <v-col cols="auto" class="">
+          <v-img
+             Height= "26"
+             width="320"
+             src= "src/assets/SeparadorUp.png"
+          >
+          </v-img>
+      </v-col>
+    </v-row>
 </v-container>
 </template>
 <style>
-.container1
-{
-  border: 2px solid green
-}
-.row1 {
-  border: 2px solid blue
-}
-.col1 {
-  border: 2px solid red
-}
-.div1 {
-  border: 2px solid yellow 
-
-}
 </style>
