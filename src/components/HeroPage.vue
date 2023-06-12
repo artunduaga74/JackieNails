@@ -29,7 +29,7 @@
             <sheet class="" >
               <v-img
                 cover
-                height="100%"
+                height="50%"
                 class="elevation-4"
                 src= "/src/assets/hero.png"
               >
@@ -42,17 +42,12 @@
 </v-container>
 </template>
 
-<script>
+<script setup>
   //
-  export default {
-    methods: {
-     whatsapp: function(){
-      window.location.href = 'https://wa.me/50762254433/?text=Hola%20deseo%20agendar%20una%20cita%20desde%20tu%20web...'
+     function whatsapp() {
+      window.location.href = 'https://wa.me/50767883873/?text=Hola%20deseo%20agendar%20una%20cita%20desde%20tu%20web...'
        //acciones a realizar
-     },
-    }
-  }
+     }
 </script>
 <style>
-
 </style>

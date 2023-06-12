@@ -34,16 +34,12 @@
     </v-row>
    </v-container>
 </template>
-<script>
-export default {
-
-methods: {
-  whatsapp: function(){
-    window.location.href = 'https://wa.me/50762254433/?text=Hola%20deseo%20agendar%20una%20cita%20desde%20tu%20web...'
+<script setup>
+  //
+     function whatsapp() {
+      window.location.href = 'https://wa.me/50767883873/?text=Hola%20deseo%20agendar%20una%20cita%20desde%20tu%20web...'
        //acciones a realizar
-    },
-}
-}
+     }
 </script>
 <style>
 
