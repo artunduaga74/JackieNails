@@ -14,24 +14,34 @@
       </v-col>
     </v-row>
  <v-row  class="justify-center align-center pr-1" >
-   <v-col cols="xs-2 sm-4" class="pt-2 mr-2" style="">
+   <v-col cols="xs-2 sm-4" class="pt-2 mr-1" style="">
     <div class="d-flex elevation-4">
       <v-img
       cover
-      src= "/src/assets/jackie.jpg"
+      src= "/src/assets/jackie.webp"
       >
       </v-img>
     </div>
 
    </v-col>
-   <v-col cols="xs-2 sm-auto" class="ml-2 pa-0">
-    <div class="text-h6 text-center ma-4" style="line-height: 18px;">
-        Mi nombre es Jackeline M.
+   <v-col cols="xs-2 sm-auto" class="ml-0 pa-0">
+    <div class="text-sm-h4 text-md-h3  mb-2" style="font-family: font-family: Georgia, serif; font-weight: 500;">
+      ¡Hola! Soy Jackeline.
     </div>
-    <div class="text-center" style="font-size: 14px;font-weight: 500;line-height: 14px;" >
-              Este es mi espacio de trabajo o como le llamo donde la magia ocurre
-              Este lugar ha sido ideado para tu comodidad donde mi atención y esmero es para cuidar de tus manos y pies.
+    <div class="parrafo"  >
+       Una apasionada del cuidado de tus manos y pies. 
+       He dedicado esfuerzo para crear un espacio exclusivo donde
+       deseo ofrecerte un servicio personalizado que refleje tu estilo único
+       en cada visita. 
+       
     </div> 
+    <div class="parrafo my-1">
+       Te invito a experimentar el cuidado excepcional que ofrezco 
+       y a disfrutar de un momento agradable. 
+    </div>
+    <div class="parrafo">
+       <strong>¡Espero verte pronto!</strong>
+    </div>
    </v-col>
  </v-row>
  <v-row class="justify-center">
@@ -47,4 +57,9 @@
 </v-container>
 </template>
 <style>
+.parrafo {
+  font-display: swap; 
+  font-size:3.5vw;
+  font-weight: 400;
+}
 </style>

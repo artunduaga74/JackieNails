@@ -5,9 +5,9 @@
      <v-row class="justify-center">
           <v-col cols="auto" class="">
             <v-img
-                Height= "80"
-                width="68"
-                src= "/src/assets/logo.png"
+                Height= "70"
+                width="60"
+                src= "/src/assets/logo.webp"
             >
             </v-img>
           </v-col>

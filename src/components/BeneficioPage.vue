@@ -5,14 +5,14 @@
     <v-row class="align-center justify-center">
         <v-col cols="sx-2 sm-4" class="mr-2 pa-0 text-center">
             <div class="mb-4 " style="font-size: 14px;font-weight: 500;line-height: 14px;">
-                Para mis lindas clientes les tengo este obsequio en su primera cita.
+                Para mis lindas clientes les tengo este obsequio por su primera cita.
             </div>
             <div class="text-h5 mb-4" style="font-size: 16px;font-weight: 500;line-height: 18px;">
               20% decuento.
             </div>
-            <v-btn elevation="8" color="primary" size="small" @click="whatsapp">Contáctenos</v-btn>
+            <v-btn text="Contáctenos por whatsapp" elevation="8" color="primary" size="small" @click="whatsapp">Contáctenos</v-btn>
         </v-col>
-        <v-col cols="sx-2 sm-4" class="ml-2 pa-0">
+        <v-col cols="sx-2 sm-4" class="ml-2 pr-2">
             <v-img
 
                 cover
@@ -37,7 +37,7 @@
 <script setup>
   //
      function whatsapp() {
-      window.location.href = 'https://wa.me/50767883873/?text=Hola%20deseo%20agendar%20una%20cita%20desde%20tu%20web...'
+      window.location.href = 'https://wa.me/50767883873/?text=Hola%20deseo%20agendar%20una%20cita...'
        //acciones a realizar
      }
 </script>
